@@ -82,5 +82,4 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
-        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         uses: actions/deploy-pages@v2
