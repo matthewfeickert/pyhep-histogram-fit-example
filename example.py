@@ -23,7 +23,7 @@
 # ---
 
 # %% [markdown]
-# # Fit of Nomral model to histogram
+# # Fit of Normal model to histogram
 
 # %%
 from numbers import Number
