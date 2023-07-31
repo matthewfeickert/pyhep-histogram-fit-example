@@ -96,4 +96,4 @@ ax.legend()
 ax.set_xlabel("Observable", fontsize=14)
 ax.set_ylabel("Count", fontsize=14)
 
-fig.savefig("normal_fit_to_hist.png")
+fig.savefig("normal_fit_to_hist.png");
