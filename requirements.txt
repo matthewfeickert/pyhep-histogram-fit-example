@@ -1,4 +1,4 @@
 hist[plot]==2.7.1
 scipy==1.11.1
 # visualization
-ipympl
+ipympl==0.9.3
