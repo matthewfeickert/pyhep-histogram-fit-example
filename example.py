@@ -25,9 +25,8 @@
 # %% [markdown]
 # # Fit of Nomral model to histogram
 
-from numbers import Number
-
 # %%
+from numbers import Number
 from typing import Protocol
 
 import hist
