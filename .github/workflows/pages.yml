@@ -37,10 +37,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip setuptools wheel
           python -m pip install --upgrade --requirement requirements.lock
-          python -m pip install --upgrade notebook jupyterlab
+          python -m pip install --upgrade notebook jupyterlab jupytext
 
       - name: List installed Python packages
         run: python -m pip list
+
+      - name: Convert to ipynb form with jupytext
+        run: jupytext --to ipynb example.py
 
       - name: Execute and convert notebook
         run: jupyter nbconvert --execute --to html --template lab --output index.html example.ipynb
